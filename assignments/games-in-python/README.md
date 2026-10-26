@@ -1,19 +1,32 @@
 
-# 🎮 Desafio: Jogo da Forca
+# 📘 Atividade: Jogo da Forca
 
-Construa o clássico jogo de adivinhar palavras usando strings, loops e entrada de dados do usuário em Python.
+## 🎯 Objetivo
 
-## 🎯 O Que Você Vai Construir
+Construa o jogo da Forca em Python para praticar manipulação de strings, listas, seleção aleatória, loops, condicionais e entrada de dados do usuário.
 
-Crie um jogo da Forca onde os jogadores adivinham letras para revelar uma palavra oculta antes de esgotar as tentativas.
+## 📝 Tarefas
 
-**Habilidades praticadas:** Manipulação de strings, loops, condicionais, seleção aleatória
+### 🛠️ Preparar a palavra secreta e receber palpites
 
-## ✅ Requisitos Obrigatórios
+#### Descrição
+Crie a base do jogo: selecione uma palavra aleatoriamente de uma lista predefinida e permita que o jogador adivinhe a palavra informando uma letra por vez.
 
-Seu jogo deve:
-- Selecionar palavras aleatoriamente de uma lista predefinida
-- Aceitar palpites de letras e mostrar o progresso atual (formato _ _ _)
-- Rastrear tentativas incorretas restantes
-- Encerrar quando a palavra for adivinhada ou as tentativas esgotarem
-- Exibir mensagens de vitória/derrota
+#### Requisitos
+O programa concluído deve:
+
+- Selecionar aleatoriamente uma palavra da lista predefinida.
+- Exibir cada letra ainda não descoberta como um espaço em branco, por exemplo, `_ _ _`.
+- Revelar no progresso as posições em que a letra informada aparece na palavra.
+
+### 🛠️ Controlar tentativas e encerrar a partida
+
+#### Descrição
+Complete o jogo acompanhando os palpites incorretos e encerrando a partida quando o jogador descobrir a palavra ou ficar sem tentativas.
+
+#### Requisitos
+O programa concluído deve:
+
+- Exibir quantas tentativas incorretas ainda restam e atualizar essa quantidade quando o jogador errar.
+- Encerrar a partida quando todas as letras da palavra forem descobertas ou as tentativas acabarem.
+- Exibir uma mensagem indicando vitória ou derrota.
